@@ -2,7 +2,6 @@
 
 A Github profile revamp project for Futurice Academy's application process.
 
-Built using:
 <a href="https://reactjs.org/" target="_blank">
 <img alt="SASS" src="https://img.shields.io/static/v1?style=for-the-badge&message=SASS&color=E37383&logo=SASS&logoColor=00ffff&label=">
 </a>
