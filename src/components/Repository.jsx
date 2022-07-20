@@ -14,10 +14,10 @@ function Repository() {
       .then(
         (result) => {
           console.log(result);
-          setGitHubRepoName(result[5].name);
-          setGitHubRepoLang(result[5].language);
-          setGitHubRepoDesc(result[5].description);
-          setGitHubRepoLink(result[5].html_url);
+          setGitHubRepoName(result[6].name);
+          setGitHubRepoLang(result[6].language);
+          setGitHubRepoDesc(result[6].description);
+          setGitHubRepoLink(result[6].html_url);
         },
         (error) => {
           console.log(error);
