@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/futurice-app/static/css/main.bbc12485.css",
+    "main.js": "/futurice-app/static/js/main.15c17a28.js",
+    "static/media/Background.png": "/futurice-app/static/media/Background.a691010c081d826f209e.png",
+    "index.html": "/futurice-app/index.html",
+    "main.bbc12485.css.map": "/futurice-app/static/css/main.bbc12485.css.map",
+    "main.15c17a28.js.map": "/futurice-app/static/js/main.15c17a28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbc12485.css",
+    "static/js/main.15c17a28.js"
+  ]
+}
