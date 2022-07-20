@@ -1,0 +1,88 @@
+/* CSS stylesheet for futurice-app */
+
+/* colour scheme */
+:root {
+  --lightgray: #121212;
+  --darkgray: #0a0a0a;
+  --textgray: #909090;
+  --brightgreen: #49ef81;
+  --lightgreen: #226d45;
+  --lightergreen: #567a64;
+  --darkgreen: #0e311e;
+  --jsyellow: #ffd600;
+  --white: #ffffff;
+}
+
+/* reset formatting + font */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: var(--darkgray);
+  scroll-behavior: smooth;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+    sans-serif;
+}
+
+html {
+  body {
+    overflow-x: hidden;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: var(--lightgray);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    background-image: url(../components/img/Background.png);
+    background-repeat: repeat-y;
+  }
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100vw;
+}
+
+h1 {
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  color: var(--white);
+}
+
+h2 {
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+  color: var(--white);
+}
+
+h3 {
+  font-family: "Helvetica", sans-serif;
+  font-size: 12px;
+  color: var(--white);
+}
+
+p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: var(--textgray);
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  color: var(--darkgray);
+}

@@ -1,0 +1,31 @@
+.Contributions {
+  margin-top: 24px;
+
+  p {
+    font-size: 12px;
+  }
+  .Contribution-Wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    padding-top: 10px;
+    padding-bottom: 18px;
+    margin-top: 7px;
+    border-radius: 15px;
+    background: var(--darkgray);
+
+    .Contribution-Months {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 4px;
+      gap: 29px;
+
+      p {
+        color: var(--white);
+        font-size: 12px;
+      }
+    }
+  }
+}

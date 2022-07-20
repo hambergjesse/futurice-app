@@ -1,0 +1,56 @@
+.Repository {
+  .Repos-Wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px 16px 8px 16px;
+    margin-top: 6px;
+    width: 325px;
+    height: 100px;
+    background: var(--darkgray);
+    border-radius: 15px;
+    gap: 5px;
+    transition: 0.2s ease-in-out;
+
+    p,
+    h1 {
+      text-align: left;
+    }
+
+    .Repos-Info {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+
+      .Repos-Language {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        .JS-Yellow-Circle {
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background: var(--white);
+        }
+      }
+
+      .Repos-Category {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        height: 12px;
+        width: 24px;
+        background: var(--lightgray);
+        p {
+          font-size: 8px;
+        }
+      }
+    }
+  }
+  .Repos-Wrapper:hover {
+    border: 1px solid var(--white);
+  }
+}

@@ -1,0 +1,24 @@
+.ProfileDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  width: 325px;
+  height: auto;
+  padding: 8px 25px 12px;
+  background: var(--darkgray);
+  border-radius: 0px 0px 15px 15px;
+
+  .LocationText {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--brightgreen);
+    transition: 0.15s ease-in-out;
+  }
+
+  .LocationText:hover {
+    color: var(--white);
+  }
+}

@@ -1,0 +1,25 @@
+.Statistics {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  width: 325px;
+
+  .stat-display {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+
+    h1 {
+      font-size: 18px;
+      transition: 0.15s ease-in-out;
+    }
+
+    h1:hover {
+      color: var(--brightgreen);
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+}
