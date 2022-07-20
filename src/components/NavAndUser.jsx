@@ -49,7 +49,7 @@ function NavAndUser() {
       <h1>{githubFullName}</h1>
       <p>@{githubUsername}</p>
       {/* Follow Button */}
-      <a href={githubProfile} target="_blank">
+      <a href={githubProfile} target="_blank" rel="noreferrer">
         <div className="followButton">
           <h2>Follow</h2>
         </div>

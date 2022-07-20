@@ -27,7 +27,7 @@ function Repository() {
 
   return (
     <div className="Repository">
-      <a href={githubRepoLink} target="_blank">
+      <a href={githubRepoLink} target="_blank" rel="noreferrer">
         <div className="Repos-Wrapper">
           <h1>{githubRepoName}</h1>
           <p>{githubRepoDesc}</p>
