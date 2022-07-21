@@ -2,7 +2,7 @@
 import GitHubCalendar from "react-github-calendar";
 
 function Contributions() {
-  const selectLastHalfYear = (contributions) => {
+  const selectLastFiveMonths = (contributions) => {
     const currentYear = new Date().getFullYear();
     const currentMonth = new Date().getMonth();
     const shownMonths = 5;
@@ -32,7 +32,7 @@ function Contributions() {
         </div>
         <GitHubCalendar
           username="hambergjesse"
-          transformData={selectLastHalfYear}
+          transformData={selectLastFiveMonths}
           hideTotalCount
           hideColorLegend
           hideMonthLabels
