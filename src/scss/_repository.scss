@@ -17,6 +17,10 @@
       text-align: left;
     }
 
+    p {
+      overflow: hidden;
+    }
+
     .Repos-Info {
       display: flex;
       flex-direction: row;

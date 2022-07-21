@@ -14,10 +14,12 @@ function Repository() {
       .then(
         (result) => {
           console.log(result);
-          setGitHubRepoName(result[6].name);
-          setGitHubRepoLang(result[6].language);
-          setGitHubRepoDesc(result[6].description);
-          setGitHubRepoLink(result[6].html_url);
+          // Pick random repo number from result's length
+          const randomNum = Math.floor(Math.random() * result.length);
+          setGitHubRepoName(result[randomNum].name);
+          setGitHubRepoLang(result[randomNum].language);
+          setGitHubRepoDesc(result[randomNum].description);
+          setGitHubRepoLink(result[randomNum].html_url);
         },
         (error) => {
           console.log(error);
