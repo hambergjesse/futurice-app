@@ -1,4 +1,4 @@
-# Futurice Academy GitHub REST API React Homework Project
+# Futurice Academy Application Project
 
  A Github profile revamp project for Futurice Academy's application process.
 
