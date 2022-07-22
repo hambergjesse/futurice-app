@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/futurice-app/static/css/main.8bcc15af.css",
-    "main.js": "/futurice-app/static/js/main.d52f06a6.js",
+    "main.css": "/futurice-app/static/css/main.f9e1f18b.css",
+    "main.js": "/futurice-app/static/js/main.1873b61f.js",
     "static/media/Background.png": "/futurice-app/static/media/Background.a691010c081d826f209e.png",
     "index.html": "/futurice-app/index.html",
-    "main.8bcc15af.css.map": "/futurice-app/static/css/main.8bcc15af.css.map",
-    "main.d52f06a6.js.map": "/futurice-app/static/js/main.d52f06a6.js.map"
+    "main.f9e1f18b.css.map": "/futurice-app/static/css/main.f9e1f18b.css.map",
+    "main.1873b61f.js.map": "/futurice-app/static/js/main.1873b61f.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bcc15af.css",
-    "static/js/main.d52f06a6.js"
+    "static/css/main.f9e1f18b.css",
+    "static/js/main.1873b61f.js"
   ]
 }
