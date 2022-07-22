@@ -9,6 +9,15 @@ function PinnedRepos() {
         <Repository />
         <Repository />
       </div>
+      <div className="viewReposText">
+        <a
+          href="https://github.com/hambergjesse?tab=repositories"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <h2>View all repositories</h2>
+        </a>
+      </div>
     </div>
   );
 }

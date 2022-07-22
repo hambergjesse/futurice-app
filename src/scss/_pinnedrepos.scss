@@ -2,8 +2,20 @@
   margin-top: 16px;
 
   h2 {
-    font-size: 12px;
+    font-size: 13px;
     font-family: Helvetica, sans-serif;
     margin-bottom: 5px;
+    color: var(--white);
+  }
+
+  .viewReposText h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    text-decoration: underline;
+    transition: 0.15s ease-in-out;
+  }
+
+  .viewReposText h2:hover {
+    color: var(--brightgreen);
   }
 }

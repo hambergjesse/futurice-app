@@ -10,11 +10,12 @@
     background: var(--darkgray);
     border-radius: 15px;
     gap: 5px;
-    transition: 0.2s ease-in-out;
+    transition: 0.15s ease-in-out;
 
     p,
     h1 {
       text-align: left;
+      transition: 0.15s ease-in-out;
     }
 
     p {
@@ -54,7 +55,16 @@
       }
     }
   }
+
   .Repos-Wrapper:hover {
     border: 1px solid var(--white);
+
+    h1 {
+      color: var(--brightgreen);
+    }
+
+    p {
+      color: var(--white);
+    }
   }
 }
