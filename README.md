@@ -15,4 +15,4 @@
 <br><br>
 I am quite new to ReactJS and this is my first time using SASS/SCSS but I decided to challenge myself and step out of my comfort zone instead of just using basic HTML, CSS and JavaScript.
 <br><br>
-👉 Built by Jesse Hamberg 18.07.2022 - 20.07.2022
+👉 Built by Jesse Hamberg 18.07.2022 - 22.07.2022
