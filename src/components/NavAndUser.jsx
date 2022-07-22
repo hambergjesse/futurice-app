@@ -33,7 +33,9 @@ function NavAndUser() {
     <div className="NavAndUser">
       <nav className="Header">
         {/* Github Logo */}
-        <img src={githubMark} alt="" />
+        <a href="https://github.com/" target="_blank" rel="noreferrer">
+          <img src={githubMark} alt="" />
+        </a>
         {/* Hamburger Menu */}
         <div className="hamburgerMenu">
           <div className="hamBar"></div>

@@ -4,7 +4,9 @@ function Footer() {
   return (
     <div className="Footer">
       {/* Github Logo */}
-      <img src={githubMark} alt="" />
+      <a href="https://github.com/" target="_blank" rel="noreferrer">
+        <img src={githubMark} alt="" />
+      </a>
     </div>
   );
 }
