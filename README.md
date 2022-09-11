@@ -28,13 +28,13 @@ cd C:\ExampleDirectory
 Install NPM
 
 ```
-npm install
+npm init
 ```
 
 Install React dependencies etc.
 
 ```
-npm install react react-dom react-github-calendar react-icons react-scripts node-sass scss-tokenizer web-vitals
+npm install
 ```
 
 Launch app
