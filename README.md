@@ -1,6 +1,6 @@
 # Futurice Academy Application Project
 
-A Github profile revamp project for Futurice Academy's application process.
+A mobile-first Github profile revamp project for Futurice Academy's application process.
 
 ##### 🛠️ Built Using
 
