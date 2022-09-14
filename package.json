@@ -2,7 +2,7 @@
   "name": "futurice-app",
   "version": "0.1.0",
   "homepage": "https://hambergjesse.github.io/futurice-app",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@natscale/react-calendar": "^0.0.0-beta.26",
     "@testing-library/jest-dom": "^5.16.4",
